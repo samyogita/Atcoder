@@ -1,4 +1,8 @@
-A, B = list(map(int, input().split()))
-div = B/A
-ans = f'{div:.3f}'
-print(ans)
+text = input()
+count = 0
+for i in text:
+    if i == 'v':
+        count += 1
+    else:
+        count += 2
+print(count)
